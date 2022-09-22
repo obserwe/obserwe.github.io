@@ -28,7 +28,7 @@
 
   /* Text Sizes (Perfect fifth: https://type-scale.com) */
   --size-hero: 3.052rem;
-  --size-xxl: 2.441rem;
+  --size-2xl: 2.441rem;
   --size-xl: 1.953rem;
   --size-l: 1.563rem;
   --size-m: 1.25rem;
@@ -38,7 +38,7 @@
 
   /* Text Weights */
   --weight-normal: 400;
-  --weight-bold: 700;
+  --weight-semi: 700;
 
   /* Font */
   --font: "Urbanist", sans-serif;
@@ -144,11 +144,11 @@ h4,
 h5,
 h6,
 strong {
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semi);
 }
 
 h1 {
-  font-size: var(--size-xxl);
+  font-size: var(--size-2xl);
 }
 
 h2 {
@@ -205,7 +205,7 @@ input {
 button {
   background: var(--tint);
   color: var(--c-white);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semi);
 }
 
 button:hover {
